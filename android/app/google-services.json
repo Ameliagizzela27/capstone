@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "26090960841",
+    "project_id": "teman-94dc3",
+    "storage_bucket": "teman-94dc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26090960841:android:5a71c6beb0423c7edc1a18",
+        "android_client_info": {
+          "package_name": "com.app.teman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26090960841-lu4is7bcn95ngbovadeo69pff48j0652.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5o3YhQPvvUXMWAja-eSPsdQxLotInnT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26090960841-lu4is7bcn95ngbovadeo69pff48j0652.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
