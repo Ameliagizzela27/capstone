@@ -1,21 +1,16 @@
 from flask import Flask, request, json
 import os
-import pickle
+import json
 
 app = Flask(__name__)
 
-file_path = "model.pickle"
-model = pickle.load(open(file_path, "rb"))
+file_path = "myfile.json"
 
 
 @app.route("/predict", methods=["POST"])
 def predict():
-    data = json.loads(request.data)
-    coordinate = data.get("coordinate")
-    prediction = model.predict(coordinate)
-    # [{"lat": 1.0, "lng": 2.0}]
-    # curl -d '{"coordinate": []}' -H "Content-Type: application/json" -X POST localhost:5000/predict
-    return json.dumps(prediction)
+    with open(file_path, "w") as f:
+	    return json.dump(f)
 
 
 if __name__ == "__main__":
