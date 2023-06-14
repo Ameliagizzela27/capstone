@@ -1,0 +1,34 @@
+[debug] [2023-06-13T15:33:31.489Z] ----------------------------------------------------------------------
+[debug] [2023-06-13T15:33:31.493Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:list --json
+[debug] [2023-06-13T15:33:31.494Z] CLI Version:   12.3.1
+[debug] [2023-06-13T15:33:31.496Z] Platform:      win32
+[debug] [2023-06-13T15:33:31.498Z] Node Version:  v18.16.0
+[debug] [2023-06-13T15:33:31.500Z] Time:          Tue Jun 13 2023 22:33:31 GMT+0700 (Western Indonesia Time)
+[debug] [2023-06-13T15:33:31.500Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-13T15:33:31.507Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-06-13T15:33:31.656Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-13T15:33:31.657Z] > authorizing via signed-in user (c163dsy4903@bangkit.academy)
+[debug] [2023-06-13T15:33:31.660Z] > refreshing access token with scopes: []
+[debug] [2023-06-13T15:33:31.664Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-06-13T15:33:31.665Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-06-13T15:33:31.693Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-06-13T15:33:31.693Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-06-13T15:33:31.702Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:144:12)
+    at refreshTokens (C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:508:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Client.getAccessToken (C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:149:23)
+    at async Client.addAuthHeader (C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:140:21)
+    at async Client.request (C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:34)
+    at async getProjectPage (C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:238:17)
+    at async getFirebaseProjectPage (C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:255:23)
+    at async listFirebaseProjects (C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:286:29)
+    at async Command.actionFn (C:\Users\Amelia Gizella\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\projects-list.js:51:20)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

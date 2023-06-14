@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "814014160691",
+    "firebase_url": "https://projectcapstone-123123-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "projectcapstone-123123",
+    "storage_bucket": "projectcapstone-123123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814014160691:android:9d696f73e4655223bda846",
+        "android_client_info": {
+          "package_name": "com.app.teman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814014160691-dqp8l7feg02r0ut5mq5lciq7pqt5lq16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnJcISRBr4sBw52X2Ms_1LNPXS_sk2PsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814014160691-dqp8l7feg02r0ut5mq5lciq7pqt5lq16.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "814014160691-vm38pvdbk5jplaupetb10hkkpsjf6u3h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.walletFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

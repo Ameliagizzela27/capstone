@@ -1,0 +1,472 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.teman"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\TeMan\teman\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->E:\TeMan\teman\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:nb_utils] E:\TeMan\teman\build\nb_utils\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+15-->[:nb_utils] E:\TeMan\teman\build\nb_utils\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0febd04e5f08f7c823a35b29fdc9793e\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0febd04e5f08f7c823a35b29fdc9793e\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0febd04e5f08f7c823a35b29fdc9793e\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0febd04e5f08f7c823a35b29fdc9793e\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+18
+19    <queries>
+19-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:17:5-19:15
+20        <package android:name="com.facebook.katana" />
+20-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:18:9-55
+20-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:18:18-52
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\9c40db826988f072a937e626d914af6c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\9c40db826988f072a937e626d914af6c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\9c40db826988f072a937e626d914af6c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\9c40db826988f072a937e626d914af6c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\9c40db826988f072a937e626d914af6c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+28
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+30
+31    <application
+31-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:3:4-43:19
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.7.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b75621715c44cf97bcd252e7f3aaabb2\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:5:9-43
+35        android:label="Teman"
+35-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:4:9-30
+36        android:supportsRtl="true" >
+36-->[com.facebook.android:facebook-login:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\11165366bfbc1c2ba3a31f76db4ea626\transformed\jetified-facebook-login-16.0.1\AndroidManifest.xml:16:18-44
+37        <activity
+37-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:6:9-37:20
+38            android:name="com.app.teman.MainActivity"
+38-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:7:13-41
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+39-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:10:13-163
+40            android:hardwareAccelerated="true"
+40-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:11:13-47
+41            android:launchMode="singleTop"
+41-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:8:13-43
+42            android:theme="@style/LaunchTheme"
+42-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:9:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:12:13-55
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+51-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:17:13-20:17
+52                android:name="io.flutter.embedding.android.NormalTheme"
+52-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:18:15-70
+53                android:resource="@style/NormalTheme" />
+53-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:19:15-52
+54            <!--
+55                 Displays an Android View that continues showing the launch screen
+56                 Drawable until Flutter paints its first frame, then this splash
+57                 screen fades out. A splash screen is useful to avoid any visual
+58                 gap between the end of Android's launch screen and the painting of
+59                 Flutter's first frame.
+60            -->
+61            <meta-data
+61-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:26:13-29:17
+62                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+62-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:27:15-79
+63                android:resource="@drawable/launch_background" />
+63-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:28:15-61
+64            <meta-data
+64-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:30:15-32:73
+65                android:name="com.google.android.geo.API_KEY"
+65-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:31:15-60
+66                android:value="AIzaSyBAB7nhlXiuTjnNyqvFWxLtgxvm6ry_EKU" />
+66-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:32:16-71
+67
+68            <intent-filter>
+68-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:33:13-36:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:34:17-68
+69-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:34:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:35:17-76
+71-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:35:27-74
+72            </intent-filter>
+73        </activity>
+74        <!--
+75             Don't delete the meta-data below.
+76             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+77        -->
+78        <meta-data
+78-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:40:9-42:33
+79            android:name="flutterEmbedding"
+79-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:41:13-44
+80            android:value="2" />
+80-->E:\TeMan\teman\android\app\src\main\AndroidManifest.xml:42:13-30
+81
+82        <service
+82-->[:cloud_firestore] E:\TeMan\teman\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[:cloud_firestore] E:\TeMan\teman\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d6a82227d130aae5ca0e4cf35f803419\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-analytics-ktx:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\122508adf62b57098eabd45b5512c9eb\transformed\jetified-firebase-analytics-ktx-21.2.2\AndroidManifest.xml:10:13-37
+86            <meta-data
+86-->[:cloud_firestore] E:\TeMan\teman\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+87                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+87-->[:cloud_firestore] E:\TeMan\teman\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[:cloud_firestore] E:\TeMan\teman\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+89            <meta-data
+89-->[:firebase_auth] E:\TeMan\teman\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+90                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+90-->[:firebase_auth] E:\TeMan\teman\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[:firebase_auth] E:\TeMan\teman\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+92            <meta-data
+92-->[:firebase_core] E:\TeMan\teman\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+93                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+93-->[:firebase_core] E:\TeMan\teman\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[:firebase_core] E:\TeMan\teman\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-analytics-ktx:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\122508adf62b57098eabd45b5512c9eb\transformed\jetified-firebase-analytics-ktx-21.2.2\AndroidManifest.xml:11:13-13:85
+96                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+96-->[com.google.firebase:firebase-analytics-ktx:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\122508adf62b57098eabd45b5512c9eb\transformed\jetified-firebase-analytics-ktx-21.2.2\AndroidManifest.xml:12:17-126
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-analytics-ktx:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\122508adf62b57098eabd45b5512c9eb\transformed\jetified-firebase-analytics-ktx-21.2.2\AndroidManifest.xml:13:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\c81501b1eea3f03d8285a5066edeb55a\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+99                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+99-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\c81501b1eea3f03d8285a5066edeb55a\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\c81501b1eea3f03d8285a5066edeb55a\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+102                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+102-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\eca25eac739f50dccc3ae2eec99b2ac5\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+105                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+105-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\eca25eac739f50dccc3ae2eec99b2ac5\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\eca25eac739f50dccc3ae2eec99b2ac5\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+107            <meta-data
+107-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0febd04e5f08f7c823a35b29fdc9793e\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+108                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+108-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0febd04e5f08f7c823a35b29fdc9793e\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0febd04e5f08f7c823a35b29fdc9793e\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\ba4b82ec4a614bd1c527c6379776cfa4\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+111                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+111-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\ba4b82ec4a614bd1c527c6379776cfa4\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\ba4b82ec4a614bd1c527c6379776cfa4\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+113        </service>
+114
+115        <activity
+115-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+116            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+116-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+117            android:excludeFromRecents="true"
+117-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+118            android:exported="true"
+118-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+119            android:launchMode="singleTask"
+119-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+120-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+121            <intent-filter>
+121-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+122                <action android:name="android.intent.action.VIEW" />
+122-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+122-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+124-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+125                <category android:name="android.intent.category.BROWSABLE" />
+125-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+125-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+126
+127                <data
+127-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+128                    android:host="firebase.auth"
+128-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+129                    android:path="/"
+129-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+130                    android:scheme="genericidp" />
+130-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+131            </intent-filter>
+132        </activity>
+133        <activity
+133-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+134            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+134-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+135            android:excludeFromRecents="true"
+135-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+136            android:exported="true"
+136-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+137            android:launchMode="singleTask"
+137-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+138-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+139            <intent-filter>
+139-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+140                <action android:name="android.intent.action.VIEW" />
+140-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+140-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+141
+142                <category android:name="android.intent.category.DEFAULT" />
+142-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+142-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+143                <category android:name="android.intent.category.BROWSABLE" />
+143-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+143-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+144
+145                <data
+145-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+146                    android:host="firebase.auth"
+146-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+147                    android:path="/"
+147-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+148                    android:scheme="recaptcha" />
+148-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+149            </intent-filter>
+150        </activity>
+151
+152        <uses-library
+152-->[androidx.window:window:1.0.0-beta04] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e21f2b86ec2cba7d3b74d2a8ab46a4e9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+153            android:name="androidx.window.extensions"
+153-->[androidx.window:window:1.0.0-beta04] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e21f2b86ec2cba7d3b74d2a8ab46a4e9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+154            android:required="false" />
+154-->[androidx.window:window:1.0.0-beta04] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e21f2b86ec2cba7d3b74d2a8ab46a4e9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+155        <uses-library
+155-->[androidx.window:window:1.0.0-beta04] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e21f2b86ec2cba7d3b74d2a8ab46a4e9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+156            android:name="androidx.window.sidecar"
+156-->[androidx.window:window:1.0.0-beta04] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e21f2b86ec2cba7d3b74d2a8ab46a4e9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+157            android:required="false" />
+157-->[androidx.window:window:1.0.0-beta04] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e21f2b86ec2cba7d3b74d2a8ab46a4e9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+158
+159        <provider
+159-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d6a82227d130aae5ca0e4cf35f803419\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+160            android:name="com.google.firebase.provider.FirebaseInitProvider"
+160-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d6a82227d130aae5ca0e4cf35f803419\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+161            android:authorities="com.app.teman.firebaseinitprovider"
+161-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d6a82227d130aae5ca0e4cf35f803419\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+162            android:directBootAware="true"
+162-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d6a82227d130aae5ca0e4cf35f803419\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+163            android:exported="false"
+163-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d6a82227d130aae5ca0e4cf35f803419\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+164            android:initOrder="100" />
+164-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d6a82227d130aae5ca0e4cf35f803419\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+165
+166        <activity
+166-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:22:9-25:66
+167            android:name="com.facebook.FacebookActivity"
+167-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:23:13-57
+168            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+168-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:24:13-96
+169            android:theme="@style/com_facebook_activity_theme" />
+169-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:25:13-63
+170        <activity android:name="com.facebook.CustomTabMainActivity" />
+170-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:26:9-71
+170-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:26:19-68
+171        <activity
+171-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:27:9-41:20
+172            android:name="com.facebook.CustomTabActivity"
+172-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:28:13-58
+173            android:exported="true" >
+173-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:29:13-36
+174            <intent-filter>
+174-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\e35c57409010becea134b4c528358360\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:31:13-40:29
+175                <action android:name="android.intent.action.VIEW" />
+175-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+175-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+176
+177                <category android:name="android.intent.category.DEFAULT" />
+177-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+177-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+178                <category android:name="android.intent.category.BROWSABLE" />
+178-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+178-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+179
+180                <data
+180-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+181                    android:host="cct.com.app.teman"
+181-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+182                    android:scheme="fbconnect" />
+182-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\d1687f71d77bed116a378747fffde8d9\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+183            </intent-filter>
+184        </activity> <!-- Needs to be explicitly declared on P+ -->
+185        <uses-library
+185-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\9c40db826988f072a937e626d914af6c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+186            android:name="org.apache.http.legacy"
+186-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\9c40db826988f072a937e626d914af6c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+187            android:required="false" />
+187-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\9c40db826988f072a937e626d914af6c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+188
+189        <activity
+189-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
+190            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+190-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:24:13-93
+191            android:excludeFromRecents="true"
+191-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:25:13-46
+192            android:exported="false"
+192-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:26:13-37
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+193-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:27:13-72
+194        <!--
+195            Service handling Google Sign-In user revocation. For apps that do not integrate with
+196            Google Sign-In, this service will never be started.
+197        -->
+198        <service
+198-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:33:9-37:51
+199            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+199-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+200            android:exported="true"
+200-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:35:13-36
+201            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+201-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
+202            android:visibleToInstantApps="true" />
+202-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\a19fda5729983d0820a6ee8cc0cc1832\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:37:13-48
+203
+204        <activity
+204-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\de032a6fc41836f290baf6d0b29d3a8f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+205            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+205-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\de032a6fc41836f290baf6d0b29d3a8f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+206            android:exported="false"
+206-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\de032a6fc41836f290baf6d0b29d3a8f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+207-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\de032a6fc41836f290baf6d0b29d3a8f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+208
+209        <receiver
+209-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+210            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+210-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+211            android:enabled="true"
+211-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+212            android:exported="false" >
+212-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+213        </receiver>
+214
+215        <service
+215-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+216            android:name="com.google.android.gms.measurement.AppMeasurementService"
+216-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+217            android:enabled="true"
+217-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+218            android:exported="false" />
+218-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+219        <service
+219-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+220            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+220-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+221            android:enabled="true"
+221-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+222            android:exported="false"
+222-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+223            android:permission="android.permission.BIND_JOB_SERVICE" />
+223-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\b302d1fdda6d7eec141be33e19173abf\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+224
+225        <meta-data
+225-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\6b6c5704db0b52eb57752e81b5ddc35e\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+226            android:name="com.google.android.gms.version"
+226-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\6b6c5704db0b52eb57752e81b5ddc35e\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+227            android:value="@integer/google_play_services_version" />
+227-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\6b6c5704db0b52eb57752e81b5ddc35e\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+228
+229        <provider
+229-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\4197253c02d1bf5e49a0a5ef62d77a85\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+230            android:name="androidx.startup.InitializationProvider"
+230-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\4197253c02d1bf5e49a0a5ef62d77a85\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+231            android:authorities="com.app.teman.androidx-startup"
+231-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\4197253c02d1bf5e49a0a5ef62d77a85\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+232            android:exported="false" >
+232-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\4197253c02d1bf5e49a0a5ef62d77a85\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+233            <meta-data
+233-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\4197253c02d1bf5e49a0a5ef62d77a85\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+234                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+234-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\4197253c02d1bf5e49a0a5ef62d77a85\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+235                android:value="androidx.startup" />
+235-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\4197253c02d1bf5e49a0a5ef62d77a85\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+236            <meta-data
+236-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0dea18f8b15f9b2683653f499e5084ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+237                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+237-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0dea18f8b15f9b2683653f499e5084ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+238                android:value="androidx.startup" />
+238-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\0dea18f8b15f9b2683653f499e5084ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+239        </provider>
+240        <!--
+241         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+242         with the application context. This config is merged in with the host app's manifest,
+243         but there can only be one provider with the same authority activated at any given
+244         point; so if the end user has two or more different apps that use Facebook SDK, only the
+245         first one will be able to use the provider. To work around this problem, we use the
+246         following placeholder in the authority to identify each host application as if it was
+247         a completely different provider.
+248        -->
+249        <provider
+249-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:29:9-32:40
+250            android:name="com.facebook.internal.FacebookInitProvider"
+250-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:30:13-70
+251            android:authorities="com.app.teman.FacebookInitProvider"
+251-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:31:13-72
+252            android:exported="false" />
+252-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:32:13-37
+253
+254        <receiver
+254-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:34:9-40:20
+255            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+255-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:35:13-86
+256            android:exported="false" >
+256-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:36:13-37
+257            <intent-filter>
+257-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:37:13-39:29
+258                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+258-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:38:17-95
+258-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:38:25-92
+259            </intent-filter>
+260        </receiver>
+261        <receiver
+261-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:41:9-47:20
+262            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+262-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:42:13-118
+263            android:exported="false" >
+263-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:43:13-37
+264            <intent-filter>
+264-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:44:13-46:29
+265                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+265-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:45:17-103
+265-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Amelia Gizella\.gradle\caches\transforms-3\1d1b216ddbd308d4451ec9131fe66285\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:45:25-100
+266            </intent-filter>
+267        </receiver>
+268    </application>
+269
+270</manifest>

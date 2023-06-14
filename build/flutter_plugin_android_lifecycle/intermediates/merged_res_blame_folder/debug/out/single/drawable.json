@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\TeMan\\teman\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Amelia Gizella\\.gradle\\caches\\transforms-3\\19769228531c0a2b012598f2e8429258\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\TeMan\\teman\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Amelia Gizella\\.gradle\\caches\\transforms-3\\19769228531c0a2b012598f2e8429258\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\TeMan\\teman\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Amelia Gizella\\.gradle\\caches\\transforms-3\\19769228531c0a2b012598f2e8429258\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\TeMan\\teman\\build\\flutter_plugin_android_lifecycle\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Amelia Gizella\\.gradle\\caches\\transforms-3\\19769228531c0a2b012598f2e8429258\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    }
+]
