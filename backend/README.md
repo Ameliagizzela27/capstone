@@ -5,13 +5,13 @@
 ### Building Dockerimage
 
 ```
-docker buildx build --tag gcr.io/capstone-project-c23-ps176   --file Dockerfile .
+docker buildx build --tag gcr.io/capstone-project-c23-ps176/teman --file Dockerfile .
 ```
 
 ### Running Dockerimage
 
 ```
-docker run -p 5000:5000 gcr.io/capstone-project-c23-ps176  
+docker run -p 5000:5000 gcr.io/capstone-project-c23-ps176/teman 
 ```
 
 ### Accessing Endpoint
