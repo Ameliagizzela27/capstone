@@ -10,7 +10,7 @@ file_path = "myfile.json"
 @app.route("/predict", methods=["POST"])
 def predict():
     with open(file_path, "w") as f:
-	    return json.dump(f)
+	    return json.load(f)
 
 
 if __name__ == "__main__":
