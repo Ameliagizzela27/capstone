@@ -6,4 +6,4 @@ spec:
   template:
     spec:
       containers:
-      - image: IMAGE
+      - image: gcr.io/capstone-project-c23-ps176/teman
