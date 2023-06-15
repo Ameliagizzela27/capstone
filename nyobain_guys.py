@@ -1,1 +1,0 @@
-gajadi kepake
